@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import image1 from './../images/3.jpg';
+import image1 from './../images/1.png';
 
 const Click1 = () => {
   const [formData, setFormData] = useState({
