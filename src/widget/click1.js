@@ -16,12 +16,14 @@ const Click1 = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const formURL = "https://docs.google.com/forms/d/e/1FAIpQLSczPYor60-xDneIGuVyerfWHeSRfJDgbMr2_X32K5BNpvNP2Q/formResponse";
-   
+
+    const formURL = "https://docs.google.com/forms/d/e/1FAIpQLScBJHNOQYEMKI-BhbY-TF6qkNaRUkYdpLRUNPl5lcrarYqppQ/formResponse";
+    
     const data = new FormData();
-    data.append("entry.852693698", formData.name);   // Name
-    data.append("entry.569655398", formData.phone);    // Mobile number
-    data.append("entry.1925850202", formData.city);    // City
+    data.append("entry.695736277", formData.name);   // Name
+    data.append("entry.975134573", formData.phone);    // Mobile number
+    data.append("entry.1448643957", formData.city);    // City
+
 
     try {
       await fetch(formURL, {
