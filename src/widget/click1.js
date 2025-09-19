@@ -47,10 +47,8 @@ const Click1 = () => {
           style={{ width: '100%', height: '100%', objectFit: 'cover' }}
         />
       {/* </Link> */}
-      Name - 
-Phone Number - 
-City - 
-      {/* Transparent Input Fields */}
+
+      {/* Transparent Input Field */}
       <form 
         onSubmit={handleSubmit} 
         style={{
