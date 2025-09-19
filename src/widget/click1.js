@@ -47,7 +47,9 @@ const Click1 = () => {
           style={{ width: '100%', height: '100%', objectFit: 'cover' }}
         />
       {/* </Link> */}
-
+      Name - 
+Phone Number - 
+City - 
       {/* Transparent Input Fields */}
       <form 
         onSubmit={handleSubmit} 
@@ -67,7 +69,7 @@ const Click1 = () => {
           name="name"
           value={formData.name}
           onChange={handleChange}
-          placeholder="Name"
+          placeholder="பெயர்"
           style={{
             background: 'rgba(255, 255, 255, 0.5)',
             border: '1px solid #ccc',
@@ -83,7 +85,7 @@ const Click1 = () => {
           name="phone"
           value={formData.phone}
           onChange={handleChange}
-          placeholder="Phone Number"
+          placeholder="தோலெய்ப்பேசி இலக்கம்"
           style={{
             background: 'rgba(255, 255, 255, 0.5)',
             border: '1px solid #ccc',
@@ -99,7 +101,7 @@ const Click1 = () => {
           name="city"
           value={formData.city}
           onChange={handleChange}
-          placeholder="City"
+          placeholder="நகரம்"
           style={{
             background: 'rgba(255, 255, 255, 0.5)',
             border: '1px solid #ccc',
